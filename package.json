@@ -1,7 +1,7 @@
 {
   "name": "node-modules-cleaner",
   "version": "1.0.0",
-  "main" : "./lib/index.js",
+  "main": "./lib/index.js",
   "description": "Script to clean redundant node_modules folders",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
   },
   "preferGlobal": true,
   "keywords": [],
-  "author": "",
+  "author": "Chidiebere I. Nnadi",
   "license": "MIT",
   "dependencies": {
     "dialog": "^0.3.1",
@@ -19,5 +19,17 @@
     "inquirer-path": "^1.0.0-beta5",
     "moment": "^2.20.0",
     "node-notifier": "^5.1.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afropolymath/node-modules-cleaner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/afropolymath/node-modules-cleaner/issues"
+  },
+  "homepage": "https://github.com/afropolymath/node-modules-cleaner#readme"
 }
