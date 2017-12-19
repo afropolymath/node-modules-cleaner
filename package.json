@@ -1,15 +1,18 @@
 {
   "name": "node-modules-cleaner",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "main" : "./lib/index.js",
+  "description": "Script to clean redundant node_modules folders",
   "scripts": {
-    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "node-modules-clean": "bin/node-modules-clean.js"
+  },
+  "preferGlobal": true,
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dialog": "^0.3.1",
     "inquirer": "^4.0.1",
