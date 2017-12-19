@@ -1,11 +1,17 @@
 # node-modules-cleaner
 
-Node script to delete unused node_modules folder
+Node script to delete unused `node_modules` folders in a specified folder
 
-### Running the script
+### Usage
 
-To run the script, download folder to your computer and run the start script.
+Install the script on your machine using npm
 
+```sh
+npm install -g node-modules-cleaner
 ```
-npm start
+
+Run the script using the `node-modules-clean` command
+
+```sh
+node-modules-clean
 ```
