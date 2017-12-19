@@ -23,7 +23,7 @@ const getInput = () => {
   return inquirer.prompt([{
     type: 'path',
     name: 'path',
-    message: 'Enter a folder that we should watch',
+    message: 'Enter a folder to should watch',
     default: process.cwd()
   }])
 }
