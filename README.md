@@ -1,5 +1,10 @@
 # node-modules-cleaner
 
+![npm](https://img.shields.io/npm/l/node-modules-cleaner.svg)
+![GitHub issues](https://img.shields.io/github/issues-raw/afropolymath/node-modules-cleaner.svg)
+![npm](https://img.shields.io/npm/v/node-modules-cleaner.svg)
+![npm](https://img.shields.io/npm/dt/node-modules-cleaner.svg)
+
 Node script to delete unused `node_modules` folders in a specified folder
 
 ### Usage
