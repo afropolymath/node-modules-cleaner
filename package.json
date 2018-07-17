@@ -1,24 +1,24 @@
 {
   "name": "node-modules-cleaner",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/index.js",
   "description": "Script to clean redundant node_modules folders",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "node-modules-clean": "bin/node-modules-clean.js"
+    "clean-node-modules": "bin/clean-node-modules.js"
   },
   "preferGlobal": true,
   "keywords": [],
   "author": "Chidiebere I. Nnadi",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.3.0",
     "dialog": "^0.3.1",
     "inquirer": "^4.0.1",
     "inquirer-path": "^1.0.0-beta5",
-    "moment": "^2.20.0",
-    "node-notifier": "^5.1.2"
+    "moment": "^2.20.0"
   },
   "directories": {
     "lib": "lib"

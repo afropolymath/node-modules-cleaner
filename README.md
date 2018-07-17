@@ -10,10 +10,10 @@ Install the script on your machine using npm
 npm install -g node-modules-cleaner
 ```
 
-Run the script using the `node-modules-clean` command
+Run the script using the `clean-node-modules` command
 
 ```sh
-node-modules-clean
+clean-node-modules
 ```
 
 Confirm the notification to clear redundant folders

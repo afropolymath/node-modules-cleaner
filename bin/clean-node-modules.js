@@ -2,5 +2,5 @@
 
 const lib = require('../lib')
 
-lib.asker.ask()
+lib.cleaner.init()
   .then((result) => lib.cleaner.clean(result.path))
